@@ -51,6 +51,11 @@ form {
     align-items: center;
 }
 
+input,
+button {
+    -webkit-appearance: none;
+}
+
 input {
     border: 1px solid hsl(238, 22%, 44%);
     border-radius: 2px;
@@ -382,7 +387,7 @@ ul:last-child {
 
     section.features {
         margin-top: 180px;
-        padding: 0;
+        padding: 0 0 75px;
         text-align: left;
     }
 
